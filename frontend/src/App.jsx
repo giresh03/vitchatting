@@ -25,7 +25,7 @@ import Search from './pages/Search'
 import getAllNotifications from './hooks/getAllNotifications'
 import Notifications from './pages/Notifications'
 import { setNotificationData } from './redux/userSlice'
-export const serverUrl="http://localhost:8000"
+export const serverUrl="https://vit-backend-n8c1.onrender.com"
 function App() {
    getCurrentUser()
    getSuggestedUsers()
